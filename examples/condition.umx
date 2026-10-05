@@ -1,0 +1,5 @@
+stamina = 40
+
+when stamina > 30 {
+    stamina = stamina - 5
+}

@@ -1,0 +1,10 @@
+uma Teio {
+    speed = 80
+    stamina = 60
+
+    strategy {
+        when stamina > 30 {
+            accelerate 5
+        }
+    }
+}
